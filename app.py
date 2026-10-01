@@ -6,14 +6,14 @@ import json
 import time
 
 # --- GOOGLE SHEET DATABASE CONNECTIVITY ---
-SHEET_ID = "1ytBPXMKDwY2CY1hkEBxL6bCVwgr-GkmhzDFpvSVTIkA"
+SHEET_ID = "1HqGObmNVBo6y2-UV65eLXIrqpW25ASPuqYqKhXFazwA"
 
 CSV_RESULTS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet1"
 CSV_QUESTIONS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet2"
 CSV_USERS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet3"
 
 # admin ရဲ့ Apps Script Web App URL
-WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwyFMXmqgLQyIx-kUN54Q5oVV4q8T1WJEvoksyo_EugBLAYeZ9SUQt35BpQF8pWMOmbcQ/exec"
+WEB_APP_URL = "https://script.google.com/macros/s/AKfycbwffcusYHdOZTTPgJxeB7fklfqboTBmxICtR1XbHa0I4iACwuASKu8CXCzE1XqGbbV4/exec"
 
 # စာမေးပွဲဖြေဆိုချိန် မိနစ် ကန့်သတ်ချက် (မိနစ် 5)
 EXAM_DURATION_MINUTES = 5
