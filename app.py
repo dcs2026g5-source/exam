@@ -6,13 +6,13 @@ import json
 import time
 
 # --- GOOGLE SHEET DATABASE CONNECTIVITY ---
-SHEET_ID = "1ytBPXMKDwY2CY1hkEBxL6bCVwgr-GkmhzDFpvSVTIkA"
+SHEET_ID = "1HqGObmNVBo6y2-UV65eLXIrqpW25ASPuqYqKhXFazwA"
 
 CSV_RESULTS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet1"
 CSV_QUESTIONS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet2"
 CSV_USERS_URL = f"https://docs.google.com/spreadsheets/d/{SHEET_ID}/gviz/tq?tqx=out:csv&sheet=Sheet3"
 
-WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxWirwaK9p3tDIW_7Iwstw6TgzLRrjqzD6rylKw1IbXn8POMKUqQCxQ7eXEid7V3mPlrg/exec"
+WEB_APP_URL = "https://script.google.com/macros/s/AKfycbxBPyGCGZQNojCHNR-FNidGcr1J5NVtbelBiU0EHiqZAjBLhD-vus7NooVHnouzCuxo/exec"
 
 EXAM_DURATION_MINUTES = 5
 
